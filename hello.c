@@ -15,4 +15,6 @@ int main()
     if(a==1)
         printf("One!!\n");
     
+    printf("Hey whatever you chose, You are one good soul!!");
+    
 }
