@@ -10,10 +10,15 @@ int main()
     int a;
     printf("You prefer 0 or 1? : ");
     scanf("%d",&a);
-    for(i = 0; i < 5; i++)
-        printf("%d\n",a);
     if(a==0)
         printf("Zero!!\n");
     if(a==1)
         printf("One!!\n");
+    
+    char dob[10];
+    printf("Enter DOB (dd/mm/yyyy) : ");
+    scanf("%s",&dob);
+    printf("You are %s born\n",&dob[6]);
+    
+    
 }
