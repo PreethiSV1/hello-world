@@ -16,5 +16,6 @@ int main()
         printf("One!!\n");
     
     printf("Bye there!);
+           printf("Alphabets - abcdefghijklmnopqrstuvwxyxz);
     
 }
