@@ -14,8 +14,14 @@ int main()
         printf("Zero!!\n");
     if(a==1)
         printf("One!!\n");
-    
+
     printf("Bye there!);
            printf("Alphabets - abcdefghijklmnopqrstuvwxyxz);
+
+    char dob[10];
+    printf("Enter DOB (dd/mm/yyyy) : ");
+    scanf("%s",&dob);
+    printf("You are %s born\n",&dob[6]);
+
     
 }
