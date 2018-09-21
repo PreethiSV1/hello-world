@@ -15,4 +15,6 @@ int main()
     if(a==1)
         printf("One!!\n");
     
+    printf("Bye there!);
+    
 }
