@@ -22,5 +22,10 @@ int main()
     printf("Enter DOB (dd/mm/yyyy) : ");
     scanf("%s",&dob);
     printf("You are %s born\n",&dob[6]);
-    
+
+    int fav;
+    printf("What's your fav num? ");
+    scanf("%d",&fav);
+    printf("%d!! COOL!",fav);
+
 }
