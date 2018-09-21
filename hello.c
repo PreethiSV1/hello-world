@@ -27,5 +27,5 @@ int main()
     printf("What's your fav num? ");
     scanf("%d",&fav);
     printf("%d!! COOL!",fav);
-
+                  
 }
